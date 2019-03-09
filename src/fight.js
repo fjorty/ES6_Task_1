@@ -13,7 +13,7 @@ export async function fight(fighter, improvedFighter, ...point) {
          else{
           break;
         }
-        i == points.length-1 ? i = 0 : i;
+        i == point.length-1 ? i = 0 : i;
       }
   
     try {
