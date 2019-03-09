@@ -19,7 +19,7 @@ export class Fighter {
 		return new Promise((resolve, reject) => {
 			console.log('time is over');
 			setTimeout(() => {
-				resolve();
+				resolve(`The ${this.name} is defeated.`);
 			}, 500);
 		});
 	}
